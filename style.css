@@ -1,0 +1,623 @@
+body {
+  font-family: var(--ff);
+  background-color: var(--white);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+ul{
+  list-style: none;
+}
+ 
+
+
+a:link {
+ color: #C4A747 !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+#jaycee{
+  color: #C4A747 !important;
+}
+
+#main{
+  background-color: #092635;
+  color: white;
+  width: 100%;
+}
+
+.navbar{
+  width: 100%;
+}
+
+
+.name{
+ text-align: center;
+ color: #C4A747;
+ font-size: 2rem;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: bold;
+}  
+
+.front{
+  text-align: center;
+  color: #C4A747;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+  
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 32%;
+  margin-top: 30px;
+}
+
+
+#cv{
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  justify-content:center;
+  align-content: center;
+  font-size: larger;
+  border-radius: 10px;
+  color: #092635;
+  margin-top: 20px;
+}
+
+
+#cv:hover{
+  background-color: #C4A747;
+}
+
+.svg-div{
+  display: flex;
+  background-color: white;
+  width: 50%;
+  margin-top: 30px;
+  font-size: large;
+  border-radius: 2px;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  justify-self:center;
+  color: #092635;
+}
+
+  
+.Career{
+  font-size: 2rem; 
+  background-color: white;
+  color: #092635;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  top: 29px;
+  text-align: center;
+}
+
+
+.what-i-do{
+  text-align: center;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  color: #092635;
+}
+
+.skill{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #178582;
+  position: relative;
+  top: 20px;
+  color: #C4A747;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.all-skill{
+  display: grid;
+  gap: 5px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #178582;
+}
+   
+
+  
+svg{
+  fill: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.html-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+  background-color: #178582;
+}
+
+
+
+.footer{
+  background-color: #092635;
+  color:#C4A747;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.a-div{
+  align-self: center;
+  justify-self: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.css-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.bootstrap-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.javascript-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.nodejs-sv{
+  margin-top: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer{
+  display: grid;
+  gap: 30px;
+  text-align: center;
+}
+    
+
+ul{
+  list-style: none;
+}
+
+
+.first-jay{
+  background-color: white;
+  border-radius: 50%;
+  width: 60px;
+  min-height: 60px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 46%;   
+}
+
+.second-jay{
+  background-color: #092635;
+  border-radius: 50%;
+  width: 50px;
+  min-height: 50px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.third-jay{
+  background-color: #C4A747;
+  border-radius: 50%;
+  min-height: 40px;
+  max-width: 40px;
+  color: #092635;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 20px;
+}
+    
+
+a {
+  color: #40bcbc !important;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+color: #C4A747 !important;
+}
+
+a:active{
+  color:  #f0bf1d !important;
+}
+
+@media only screen and (min-width:850px){
+
+  
+
+  #jaycee{
+     font-size: 1.5rem;
+
+  }
+
+  .name{
+    font-size: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  }
+
+  .front{
+    font-size: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  }
+
+  img{
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 430px;
+  }
+
+  #cv{
+    position: relative;
+    top: -200px;
+    font-size: 2rem;
+    left: 150px;
+    width: auto;
+  }
+
+  .svg-div{
+    gap: 20px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  svg{
+    height: 2rem;
+    width: 2rem;
+    
+  }
+  
+  .what-i-do{
+    font-size: 30px;
+  }
+  .career{
+    margin-top: 30px;
+    font-size: 4rem;
+    position: relative;
+    
+  }
+
+  .skill{
+    font-size: 2rem;
+  }
+
+  
+  .nav-item{
+    position: relative;
+    left: 400px;
+    font-size: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width:912px){
+  img{
+    position: relative;
+    left: 450px;
+    height: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .name{
+    font-size: 6rem;
+  }
+
+  .front{
+    font-size: 5rem;
+  }
+
+  img{
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 400px;
+  }
+
+  .svg{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .svg-div{
+    width: 300px;
+    gap: 25px;
+  }
+
+  .what-i-do{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 2px;
+  }
+
+  .Career{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-weight: bolder;
+  }
+
+  .all-skill{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .web{
+    border: 25px solid whitesmoke;
+  }
+
+
+  
+  
+.nav-item{
+  color: #40bcbc !important;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+ 
+.nav-item:hover{
+color: #C4A747 !important;
+}
+
+a:active{
+  color:  #f0bf1d !important;
+}
+}
+
+@media only screen and (min-width:1440px){
+  .nav-item{
+    position: relative;
+    font-size: 25px;
+    left: 1000px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .name{
+    font-size: 6rem;
+    position: relative;
+    top: 200px;
+    right: 130px;
+    z-index: 2;
+    width: 80%;
+    background-color: none;
+    margin-top: 20px;
+  }
+
+  .front{
+    font-size: 5rem;
+    width: 50%;
+    position: relative;
+    top: 250px;
+    left: 140px;
+  }
+
+  img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+    top: -100px;
+    left: 1100px;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-color: black;
+  }
+
+  
+
+  #cv{
+    font-size: 3rem;
+  }
+
+  svg{
+    height: 3rem;
+    width: 3rem;
+    fill: #092635;
+  }
+
+  .svg-div{
+    width: 200px;
+    gap: 30px;
+  }
+
+  .what-i-do{
+    font-size: 2rem;
+    color: hsl(240, 4%, 36%);
+  }
+
+  
+
+  .Career{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-weight: bolder;
+    color: #092635;
+  }
+
+  .web::first-line{
+    color: goldenrod;
+  }
+
+  .all-skill{
+    display: flex;
+    gap: 80px;
+  }
+
+  .html-sv{
+    width: 250px;
+    min-height: 250px;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: hsl(240, 3%, 23%);
+    border-radius: 15px;
+  }
+
+  .html-sv:hover{
+    background-color: #C4A747;
+  }
+
+  .css-sv{
+    width: 250px;
+    min-height: 250px;
+    background-color: white;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: hsl(240, 3%, 23%);
+    border-radius: 15px;
+  }
+
+  .css-sv:hover{
+    background-color: #C4A747;
+  }
+
+  .bootstrap-sv{
+    width: 250px;
+    min-height: 250px;
+    background-color: white;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: hsl(240, 3%, 23%);
+    border-radius: 15px;
+  }
+
+  .bootstrap-sv:hover{
+    background-color: #C4A747;
+  }
+
+  .javascript-sv{
+    width: 250px;
+    min-height: 250px;
+    background-color: white;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: hsl(240, 3%, 23%);
+    border-radius: 15px;
+  }
+
+  .javascript-sv:hover{
+    background-color: #C4A747;
+  }
+
+  .nodejs-sv{
+    width: 250px;
+    min-height: 250px;
+    background-color: white;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: hsl(240, 3%, 23%);
+    border-radius: 15px;
+  }
+
+  .nodejs-sv:hover{
+    background-color: #C4A747;
+  }
+
+  .a-div{
+    display: flex;
+    font-size: 25px;
+    gap: 100px;
+  }
+
+  .first-ul{
+    margin-top: 50px;
+  }
+  
+
+  .first-jay{
+    width: 100px;
+    min-height: 100px;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .second-jay{
+    width: 80px;
+    min-height: 80px;
+
+  }
+
+  .third-jay{
+    width: 60px;
+    min-height: 70px;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .copy{
+    position: relative;
+    left: 1250px;
+    font-size: 20px;
+    color: #C4A747;
+    top: -50px;
+  }
+  
+
+}
